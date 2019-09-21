@@ -1,5 +1,5 @@
 h1{
-    text-shadow: 2px 2px;
+    text-shadow:2px 2px;
  color: blue;
 }
 
@@ -19,13 +19,17 @@ body{
         padding: 20px;
         margin-left: 550px;
         margin-right: 550px;
-        margin-top: 80px;
+        margin-top: 40px;
         text-align: center;
 }
     
 #footer {
     padding: 10px;
     text-align: right;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 550px;
+    font-size: 80px;
   }
 
   .table{
@@ -43,12 +47,15 @@ body{
 
   .content{
          width:650px;
-         height: 400px;
+         height: 300px;
          background-image: url("/home/abdirahman/Desktop/Birthday-project/images/Green-nature-hd-wallpaper-1080p.jpg");
          border-radius: 40px;
          text-align: center;
          padding:20px;
          margin-right: 1200px;
+         color: aliceblue;
+         margin-top: 120;
+         box-shadow:20px 20px 54px -13px #144940;
 
   }
 
@@ -70,4 +77,54 @@ input{
     color: whitesmoke;
     font: 30px;
     
+}
+img{
+    border-radius: 80px;
+    float:left;
+
+}
+
+.wallece{
+   font-size: 50px;
+    color: black;
+   transform: rotate(45deg);
+   float: right;
+   cursor:pointer;
+   top:355px;
+  position:absolute;
+  margin-left: 570px;
+}
+
+.azhar{
+    position: absolutte;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.azhar h1{
+    color:#fff;
+    font-size:36px;
+    margin-bottom: 40px;
+}
+
+.button{
+    background: #fff;
+    padding: 10px 15px;
+    color: #34495e;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0,0.75);
+    margin-top:25px;
+    text-decoration: none;
+    transform: 0.4s;
+}
+
+.button:hover{
+    background:green;
+    color:whitesmoke;
 }
