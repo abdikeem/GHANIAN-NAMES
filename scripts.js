@@ -1,9 +1,9 @@
 function UserInfo()
 {
-    var CC=parseInt(prompt("Enter the first two digit of the century you were born in"));
-    var CC=parseInt(prompt("Enter the last two digit of the year you were born in"));
-    var CC=parseInt(prompt("Enter the two digit of the month you were born in"));
-    var CC=parseInt(prompt("Enter the two digit of the day you were born in"));
+    var cc=parseInt(prompt("Enter the first two digit of the century you were born in"));
+    var yy=parseInt(prompt("Enter the last two digit of the year you were born in"));
+    var mm=parseInt(prompt("Enter the two digit of the month you were born in"));
+    var dd=parseInt(prompt("Enter the one digit of the day you were born in"));
 
 
     alert("Your Birthday is " +" "+dd +" "+ mm +" "+ cc + yy);
@@ -50,7 +50,8 @@ function UserInfo()
    }
 }
 
-else 
+ else 
+
 {
    alert("You are Male");
 }
