@@ -12,9 +12,9 @@ function UserInfo()
    
     alert("The day of the week you were born is;" +  day);
 
-    var gender=prompt("Enter the number that represents your gender. 1= Female 2= Male ")
+    var gender=prompt("Enter the number that represents your gender. 1= Male 2= Female ")
 
-    if (gender===1)
+    if (gender===2)
     {
         alert("You are Female");
     }
@@ -42,13 +42,13 @@ function UserInfo()
    {
     alert("Your Akana name is Afua");
    }
-   else 
+   else if (day===6)
   {
     alert("your Akana name is Ama");
    }
 }
 
- else 
+ else (gender===1)
 
 {
    alert("You are Male");
@@ -78,8 +78,8 @@ else if (day===5)
 {
 alert("Your Akana name is Kofi");
 }
-else 
+else if (day===6)
 {
 alert("your Akana name is Kwame");
 }
-}
+
