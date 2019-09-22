@@ -1,7 +1,6 @@
 # AKAN GHANA NAMES
 ## ABDIHAKIM ABDIRAHMAN 
 
- 
 https://github.com/abdikeem/birthday-age.git
         
  **This is an introduction to my website of AKANA GHANA NAMES**

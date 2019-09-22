@@ -6,7 +6,7 @@ h1{
 
 body{
 
-    background-image:url("/home/abdirahman/Desktop/Birthday-project/image.jpg");
+    background-image:url("/home/abdirahman/Desktop/Birthday-project/image.jpg" alt="Ghana flag");
     background-repeat:no-repeat;
     background-size: cover;
     width: 100%;
