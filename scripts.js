@@ -5,13 +5,11 @@ function UserInfo()
     var mm=parseInt(prompt("Enter the two digit of the month you were born in"));
     var dd=parseInt(prompt("Enter the one digit of the day you were born in"));
 
-
-    alert("Your Birthday is " +" "+dd +" "+ mm +" "+ cc + yy);
+    //alert("Your Birthday is " +" "+ dd +" "+ mm +" "+ cc + yy);
 
     var day = parseInt( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7;
 
-    //CC/4)-2*CC -1)+(YY*5/4)+(MM+1)*26/10
-    
+   
     alert("The day of the week you were born is;" +  day);
 
     var gender=prompt("Enter the number that represents your gender. 1= Female 2= Male ")
