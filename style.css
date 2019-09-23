@@ -1,22 +1,22 @@
 h1{
     text-shadow:2px 2px;
- color: blue;
+ color: rgb(255, 0, 0);
 }
 
 
 body{
 
-    background-image:url("/home/abdirahman/Desktop/Birthday-project/image.jpg");
+    background-image:url("./images/image.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     width: 100%;
     height: 500px;
-    image
+    image-resolution: fixed;
 }
 
 
 .container{
-        background-color: #144940;
+        background-color: rgba(23, 66, 14, 0.788);
         padding: 20px;
         margin-left: 550px;
         margin-right: 550px;
@@ -26,15 +26,6 @@ body{
         border-radius:15px;
 }
     
-#footer {
-    padding: 10px;
-    text-align: right;
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 550px;
-    font-size: 80px;
-  }
-
   .table{
       background: rgba(0,0,0,0,0.75);
       width: 100%;
@@ -52,7 +43,7 @@ body{
   .content{
          width:650px;
          height: 300px;
-         background:url("/home/abdirahman/Desktop/Birthday-project/cheery.jpg");
+         background:url("./images/cheery.jpg");
          text-align: center;
          padding:20px;
          margin-right: 1200px;
@@ -66,9 +57,6 @@ body{
   }
 
 
-  a{
-    color: goldenrod;
-}
 
   .button{
       font-size: 30px;
@@ -125,4 +113,16 @@ img{
 
 h2{
     font-size: 20px;
+}
+
+p{
+    color:greenyellow;
+    font-size: 25px;
+}
+
+form{
+        padding: 10px;
+        text-align: right;
+        margin-left: 150px;
+        margin-top: 10px;
 }

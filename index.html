@@ -2,18 +2,20 @@
     <head>
         <meta charset="utf-8">
         <title>Akan Ghana names</title>
-        <link  href="text/javascript" rel="stylesheet" type="text/css">
         <link href="style.css" rel="stylesheet" type="text/css">
         
      </head>
         <body>
                 <div class="container">
-                    <div class="jumbotron">
-            <h1><strong>AKAN NAMES FROM GHANIAN CULTURE</strong></h1>    
+
+            <h1><strong>AKAN NAMES FROM GHANIAN CULTURE</strong></h1>  
+
+            <p>In this page you are requared to enter your Century, Year, Month, and Day,after filling all the details correct their will be a popup of day of the week they were born and then depending on their gender it will output their Akan Name. </p>
+
             <div class="table">
                 <div class="content">
-                    <script src="akanname.js"></script>
-                    <img src="/home/abdirahman/Desktop/Birthday-project/face.jpg" alt="yow face"><br><br>
+                    
+                    <img src="./images/face.jpg" alt="yow face"><br><br>
                 
                 <select name="Gender">
                   <option value="MALE">MALE</option>
@@ -26,13 +28,17 @@
             <input id="id1" type="number" max="100" placeholder="Month"><br>
             <input id="id1" type="number" max="100" placeholder="Day"><br>
             </div>
-           
-            
-            <div id="footer">
-                <input type="button" onclick="alert('Thanks for your information')" value="Finish">
-          <a href="" class="button"><strong>Submit</strong></a>
-            </div>
-            <link href="js/script.js"  rel="stylesheet" type="text/javascript">
+
+            <script src="js/script.js"></script>
+
+            <button name="submit" oneclick ="userInfo()">submit</button>
+           <form>    
+          <input type="button" onclick="alert('Thanks for your information')" value="press">
+          </form>
+
+          
+              </div>
+             
            
        </body>
      </html>
